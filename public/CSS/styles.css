@@ -1,0 +1,106 @@
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+header {
+    background-color: #eac926;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+}
+h3 {
+    font-size: 24px;
+}
+p{
+    font-size: 12px;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    font-size:12px;
+    margin-left: -35px;
+    text-decoration: none;
+    color: black
+}
+.logo {
+    width: 50%;
+}
+div.burger-menu {
+    text-align: center;
+}
+.burger-menu i {
+    background-color: #0044aa;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 20px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px
+}
+#logo-header{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+#input-header{
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 250px
+}
+#search-button-header {
+    margin-bottom: 20px;
+    margin-left: 25px;
+    padding: 1px;
+}
+#text-header {
+    font-size: 12px;
+    margin-left: 150px;
+}
+#burguer-header{
+    text-align: center;
+}
+main{
+    text-align: center;
+    width: 90%;
+    margin: 10px 0px;
+}
+.main-title{
+    font-size: 24px;
+}
+.precio-articulo{
+    font-size: 18px;
+}
+.descuento-articulo {
+    font-size: 16px
+}
+.descripcion-articulo {
+    display: none;
+    font-size: 16px;
+}
+
+article {
+margin: 10px 0px;
+}
+.caja-hija { 
+    border-top: 1px solid #ebebeb ;
+    padding: 15px;
+}
+@media(min-width: 361px) {
+    .descripcion-articulo{ display:initial}
+}
+@media (min-width: 769px) {
+    article{box-shadow: 0px 0px 10px rgb(100 100 100) ;
+    }
+}
+footer {
+    text-align: center;
+    font-size: 12px;
+    background-color: white;
+}
+#Pago {
+margin-top: 10px;
+padding: 10px;
+}
